@@ -1,0 +1,143 @@
+.container {
+    width: 98.9vw !important;
+    border: 1px solid red !important;
+}
+
+.grid1a {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 80%;
+}
+
+.grid1a .h1-s {
+    width: 60%;
+    height: 189px;
+    margin-top: 87px;
+    color: var(--color-san-juan-blue);
+}
+
+.grid1a-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.grid1a .grid1a-flex div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.grid1a .grid1a-flex div h1 {
+    width: 100%;
+    height: 40px;
+    color: var(--color-san-juan-blue);
+}
+
+.grid2a img {
+    max-width: 100%;
+    width: 100vw !important;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 32px;
+}
+
+.grid3a {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid3a div {
+    width: 350px;
+    height: 134px;
+    margin-top: 72px;
+    border-top: 1px solid var(--color-san-juan-blue);
+    border-bottom: 1px solid var(--color-san-juan-blue);
+}
+
+.grid3a div .h3-b {
+    margin-top: 16px;
+}
+
+.grid3a div .h1-s {
+    color: var(--color-dark-pink);
+}
+
+.das {
+    border: 1px solid;
+}
+
+.grid4a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 89px;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid4a div {
+    display: flex;
+    width: 100%;
+}
+
+.grid4a div h1 {
+    width: 40%;
+    height: 40px;
+    margin-bottom: 56px;
+    color: var(--color-san-juan-blue);
+}
+
+.grid4a div p {
+    width: 60%;
+    color: var(--color-san-light-juan-blue);
+}
+
+.abo {
+    margin-top: 100px;
+}
+
+@media (max-width:968px) {
+    .grid1a {
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .grid1a .h1-s {
+        width: 80%;
+        height: fit-content;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .grid1a-flex {
+        width: 120%;
+        height: fit-content;
+        justify-content: space-between;
+    }
+    .grid1a .grid1a-flex div h1 {
+        width: 113%;
+    }
+    .grid3a div h1 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .grid4a {
+        width: 95%;
+    }
+}
+
+.abo h1 {
+    width: 50% !important;
+}

@@ -1,0 +1,92 @@
+.container {
+    width: 98.4vw;
+    height: 1440px !important;
+}
+
+.grid1c {
+    margin-top: 82px;
+}
+
+.grid1c h1 {
+    height: 133px;
+    width: 40%;
+    margin-bottom: 40px;
+    margin-left: 7vw;
+}
+
+.grid2c {
+    width: 100%;
+    height: 700px;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+}
+
+.grid2c .left {
+    width: 40%;
+}
+
+.grid2c .left input,
+textarea {
+    width: 70%;
+    border-bottom: 1px solid red;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background: #f2f2f2;
+    opacity: 0.4;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px !important;
+}
+
+textarea {
+    height: 50px;
+    width: 70%;
+    padding-left: 45px;
+}
+
+.grid2c .left .flexcheck {
+    width: 76%;
+    height: 109px;
+    display: flex;
+    border: 1px solid red;
+    align-items: center;
+}
+
+.flexcheck input {
+    margin-left: 0px;
+    background-color: red;
+}
+
+[type=checkebox] {
+    color: red !important;
+    background-color: #fefa !important;
+}
+
+.grid2c .share-icons {
+    width: 100% !important;
+    height: 180px;
+}
+
+.grid2c .right h1 {
+    margin-bottom: 60px;
+    width: 50%;
+}
+
+.grid2c .left button {
+    width: 171px;
+    height: 48px;
+    color: var(--color-mirage-blue);
+    border: 1px solid var(--color-mirage-blue);
+    padding: 16px 32px 14px 32px;
+    border-radius: 20px;
+    margin-top: 24px;
+}
+
+.grid2c .left button:hover {
+    background-color: var(--color-mirage-blue);
+    color: var(--color-link-water-white);
+}
